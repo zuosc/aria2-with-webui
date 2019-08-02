@@ -24,7 +24,7 @@ xujinkai/aria2-with-webui
 II. Open `http://serverip:6880/` for aria2-webui, open `http://serverip:6888/` to browse data folder.  
 
 ### Build:  
-`sudo docker build -f Dockerfile -t xujinkai/aria2-with-webui .`  
+`sudo docker build -f Dockerfile -t zuosc/aria2-with-webui .`  
 
 ### Link:  
 https://github.com/aria2/aria2  
