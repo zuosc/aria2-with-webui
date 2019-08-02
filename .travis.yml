@@ -1,0 +1,19 @@
+language: bash
+
+services:
+  - docker
+
+branches:
+  only:
+    - master
+
+before_script:
+  # 登录到 docker hub
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+
+
+before_install:
+  - docker build -t "$DOCKER_USERNAME"/aria2-with-webui:latest .
+
+after_success:
+  - docker push "$DOCKER_USERNAME"/aria2-with-webui:latest
