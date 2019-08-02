@@ -1,6 +1,6 @@
 FROM alpine:edge
 
-MAINTAINER xujinkai <jack777@xujinkai.net>
+MAINTAINER zuosc <zorro.zsc@hotmail.com>
 
 RUN apk update && \
 	apk add --no-cache --update bash && \
