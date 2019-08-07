@@ -1,6 +1,6 @@
 ---
 
-Aria2 with webui
+Aria2 with webui   [![Build Status](https://travis-ci.com/zuosc/rutorrent-flood-docker.svg?branch=master)](https://travis-ci.com/zuosc/rutorrent-flood-docker)
 ---
 Only 29Mb.  
 Edit config file out of the image.  
